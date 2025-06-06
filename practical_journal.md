@@ -1,0 +1,57 @@
+
+How many columns are in the dataset?
+
+There are fourteen columns.
+
+Name 3 of them and explain what they represent.
+
+Name - The name of the competitor
+
+Season - What season the games were held in.
+
+Sport - What sport the competitor participated in.
+
+What do the first 5 rows show?
+
+ID                      Name Sex   Age  Height  Weight            Team  NOC        Games  Year  Season       City          Sport                             Event Medal
+0   1                 A Dijiang   M  24.0   180.0    80.0           China  CHN  1992 Summer  1992  Summer  Barcelona     Basketball       Basketball Men's Basketball   NaN
+1   2                  A Lamusi   M  23.0   170.0    60.0           China  CHN  2012 Summer  2012  Summer     London           Judo      Judo Men's Extra-Lightweight   NaN
+2   3       Gunnar Nielsen Aaby   M  24.0     NaN     NaN         Denmark  DEN  1920 Summer  1920  Summer  Antwerpen       Football           Football Men's Football   NaN
+3   4      Edgar Lindenau Aabye   M  34.0     NaN     NaN  Denmark/Sweden  DEN  1900 Summer  1900  Summer      Paris     Tug-Of-War       Tug-Of-War Men's Tug-Of-War  Gold
+4   5  Christine Jacoba Aaftink   F  21.0   185.0    82.0     Netherlands  NED  1988 Winter  1988  Winter    Calgary  Speed Skating  Speed Skating Women's 500 metres   NaN
+
+
+What are the top 5 sports?
+Athletics, Gymnastics, Swimming, Shooting and Cycling.
+
+How many male vs female athletes?
+Theres is 196594 male athletes, and 74522 female athletes.
+
+What’s the average age?
+approx. 25 years old.
+
+
+
+What’s the oldest and youngest athlete?
+
+Oldest - 97 years old.
+Youngest - 10 years old.
+
+Are there any columns with missing or strange values?
+Not yet.
+
+Three country codes
+1) AZE - Azerbaijan
+2) KSA - Saudi Arabia
+3) ROU - Romania
+
+
+
+What’s one thing you learned about the Olympics dataset?
+I learnt that you can use code to gain quick information, rather than having to look through the whole thing.
+
+What did you find challenging in setting up or running Pandas?
+At first, the pandas didn't work on my personal laptop, so I had to redownload it and redo everything on the school laptop in order for it to work and use pandas.
+
+What’s something you'd like to analyse next?
+Maybe some financial tables.
