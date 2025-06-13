@@ -38,3 +38,17 @@ print(sorted_by_height[['Name', 'Height', 'Sport']].head())
 # Sort by weight
 sorted_by_weight = df.sort_values(by='Weight', ascending=False)
 print(sorted_by_weight[['Name', 'Weight', 'Sport']].head())
+
+# Count missing values in each column
+print(df.isnull().sum())
+
+# Drop rows missing both height and weight
+df_cleaned = df.dropna(subset=['Height', 'Weight'])
+print(df_cleaned.shape)
+
+# Fill missing medals with 'None'
+df_cleaned['Medal'] = df_cleaned['Medal'].fillna('None')
+
+# Fill missing ages with average age
+avg_age = df_cleaned['Age'].mean()
+df_cleaned['Age'] = df_cleaned['Age'].fillna(avg_age)
