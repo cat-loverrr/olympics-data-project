@@ -81,3 +81,16 @@ print(sorted_by_height[['Name', 'Height', 'Sport']].head())
 # Sort by weight
 sorted_by_weight = df.sort_values(by='Weight', ascending=False)
 print(sorted_by_weight[['Name', 'Weight', 'Sport']].head())
+
+# Which 3 columns have the most missing values?
+Height, weight and medal.
+# Why might this happen in real-world Olympic data?
+This might happen when people were unable to obtain the data, or the data wasnt accurate.
+# How many rows did you remove?
+I removed 206853 rows.
+# What are the pros and cons of dropping data?
+The pros of dropping data would be being able to use accurate data, but the cons are not having that important data anymore, accurate or not.
+# Replace missing Weight with average weight
+avg_weight = df_cleaned['Weight'].mean()
+df_cleaned['Weight'] = df_cleaned['Weight'].fillna(avg_weight)
+# Use .median() instead of .mean() and compare. 
