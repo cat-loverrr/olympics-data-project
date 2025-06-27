@@ -93,4 +93,24 @@ The pros of dropping data would be being able to use accurate data, but the cons
 # Replace missing Weight with average weight
 avg_weight = df_cleaned['Weight'].mean()
 df_cleaned['Weight'] = df_cleaned['Weight'].fillna(avg_weight)
-# Use .median() instead of .mean() and compare. 
+# Did cleaning improve the dataset?
+Yes, there's now no more missing or incorrect values.
+What questions could now be answered more confidently?
+
+# Open the CSV in Excel or Sheets. Is it readable, complete, and useful?
+Yes, it is.
+
+
+# What was the dirtiest column in the dataset?
+Medals were the dirtiest column.
+
+# How did you decide when to drop vs fix missing data?
+
+# Why is data cleaning so important in real-world projects?
+Data cleaning is important so it's easier to read and get information thats needed.
+# Are labels readable?
+Yes, they're readable.
+# Does the chart title clearly explain what’s shown?
+Yes, the title is accurate in what is shown.
+
+
