@@ -113,4 +113,14 @@ Yes, they're readable.
 # Does the chart title clearly explain what’s shown?
 Yes, the title is accurate in what is shown.
 
+# Is there a trend over time?
+Ages alternated between more younger people and more older people.
 
+# Does this graph suggest changes in athlete demographics?
+There might be changes.
+
+
+# Change bins=30 to bins=10. What changes?
+Both the shape of the data and the frequency.
+# Describe the shape of the data: is it normal, skewed, or unusual?
+The shape of the data in both graphs are slightly skewed.
